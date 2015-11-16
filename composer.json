@@ -1,1 +1,21 @@
-{}
+{
+    "name": "saci/db",
+    "type": "library",
+    "description": "PDO in a simpler way",
+    "keywords": ["pdo","db", "sql", "json"],
+    "homepage": "https://github.com/ronaldoaf/saci-db",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronaldo Araújo de Farias",
+            "email": "ronaldo.a.f@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+         "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {"Saci\\": "src/"}
+    }
+}
